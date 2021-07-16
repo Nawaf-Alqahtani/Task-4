@@ -3,7 +3,7 @@
 # In this task I ran and wrote commands to start navigating the SLAM map using the Rviz and Gazebo emulator.
 
 
-1.Launch Simulation World:
+# 1. Launch Simulation World:
 
 $ export TURTLEBOT3_MODEL=burger
 
@@ -18,7 +18,7 @@ $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/m
 
 
 
-3.Estimate Initial Pose:
+# 3. Estimate Initial Pose:
 
 1. I Click the 2D Pose Estimate button in the RViz menu.
 
@@ -40,12 +40,13 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 6. I terminate the keyboard teleoperation node by entering Ctrl + C to the teleop node terminal in order to prevent different cmd_vel values are published from multiple nodes during Navigation.
 
 
-4.Set Navigation Goal:
+# 4. Set Navigation Goal:
 
 1. I click the 2D Nav Goal button in the RViz menu.
 
 2. I click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing.
 
-![nav goal](https://user-images.githubusercontent.com/85695324/125964442-1b04efbc-daff-4ed9-816c-64de5708b96c.png)
+![nav goal 2](https://user-images.githubusercontent.com/85695324/125965382-85efad51-df98-49d0-ab7c-02cbda1d822f.png)
+
 
 
